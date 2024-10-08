@@ -12,7 +12,7 @@ body {
 // Header styling - background color for header and nav bar
 header {
     background-color: #463b7c; /* Indigo color for headers and nav bar */
-    color: #fff;
+    color: white;
     padding: 10px;
     text-align: center;
 }
@@ -109,7 +109,7 @@ form textarea:focus {
 form button {
     padding: 10px 20px;
     background-color: #463b7c;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
