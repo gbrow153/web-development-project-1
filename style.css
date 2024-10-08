@@ -1,19 +1,23 @@
-//BASIC WEBSITE STYLES//
+/* BASIC WEBSITE STYLES */
+
+// Body styling - overall website background and font
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f3e9ff;
+    background-color: #f3e9ff; /* Super pretty purple for the base of the website */
 }
 
+// Header styling - background color for header and nav bar
 header {
-    background-color: #463b7c;
+    background-color: #463b7c; /* Indigo color for headers and nav bar */
     color: #fff;
     padding: 10px;
     text-align: center;
 }
 
+// Navigation styling
 nav ul {
     list-style: none;
     padding: 0;
@@ -24,20 +28,24 @@ nav ul li {
     margin: 0 10px;
 }
 
+// Link styling
 a {
     color: #fff;
     text-decoration: none;
 }
 
+// Main content styling
 main {
     padding: 20px;
 }
 
+// About section styling - flexbox layout for profile pic and text
 .about-section {
     display: flex;
     align-items: center;
 }
 
+// Profile picture styling - circular and with spacing
 .profile-pic {
     border-radius: 50%;
     margin-right: 20px;
@@ -45,17 +53,21 @@ main {
     height: 100px;
 }
 
+// Contact section styling - centered and with max width
 .contact-section {
     max-width: 500px;
     margin: 0 auto;
 }
 
+// Form layout - flexbox for vertical arrangement of form elements
 form {
     display: flex;
     flex-direction: column;
 }
----
-//FORM STYLES//
+
+/* FORM STYLES */
+
+// Form styling - setting form size, padding, border, and background
 form {
     margin-top: 20px;
     max-width: 600px;
@@ -67,14 +79,15 @@ form {
     background-color: #f5f5f5;
 }
 
-/* Label Styling */
+/* Label styling - clear display and color styling */
 form label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
-    color: #463b7c;
+    color: #463b7c; /* Matching label color with the header */
 }
 
+/* Input and textarea styling - form element looks */
 form input,
 form textarea {
     width: 100%;
@@ -86,11 +99,13 @@ form textarea {
     transition: border-color 0.3s ease;
 }
 
+// Focus state - darker color for border when input is focused
 form input:focus,
 form textarea:focus {
-    border-color: #2c2477;
+    border-color: #2c2477; /* Slightly darker indigo on focus */
 }
 
+// Button styling - matching color scheme and hover effect
 form button {
     padding: 10px 20px;
     background-color: #463b7c;
@@ -101,9 +116,12 @@ form button {
     transition: background-color 0.3s ease;
 }
 
+// Button hover effect - changes background when hovered
 form button:hover {
-    background-color: #2c2477;
+    background-color: #2c2477; /* Darker shade when hovered */
 }
+
+// Additional styling for form inputs and text areas
 input, textarea {
     margin-bottom: 10px;
     padding: 10px;
